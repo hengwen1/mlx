@@ -202,6 +202,7 @@ std::pair<int, int> get_graph_limits(Device& d) {
       ops = 100;
       mb = 1000;
       break;
+    case 1100: // Jetson Thor
     case 1210: // DGX Spark
       ops = 20;
       mb = 25;

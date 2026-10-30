@@ -131,6 +131,7 @@ class CMakeBuild(build_ext):
                 cuda_archs += [
                     "90a-real",
                     "100a-real",
+                    "110a-real",
                     "121a-real",
                 ]
             cmake_args += [f"-DMLX_CUDA_ARCHITECTURES={';'.join(cuda_archs)}"]
